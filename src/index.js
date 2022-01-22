@@ -1,24 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
 import "./assets/sass/app.scss";
-import App from './App';
+import Router from "./routes/Router";
+
 import reportWebVitals from './reportWebVitals';
-import Splash from "./pages/splash";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App/>}>
-          <Route index element={<Splash/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Router/>
   </React.StrictMode>,
   document.getElementById('root')
 );

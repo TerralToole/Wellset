@@ -1,12 +1,12 @@
 // @ts-ignore
-import { API_URL } from "@env";
-import { StoredKeys } from "../constants/StoredKeys";
+import {StoredKeys} from "../constants/StoredKeys";
 
 class ApiService {
   constructor(config) {
+    const API_URL = process.env.REACT_APP_API_URL;
+
     this.baseUrl = config.baseUrl || `${API_URL}`;
     this.userToken = config.userToken || null;
-    this.logging = config.verbose || false;
   }
 
   set token(value) {
@@ -22,8 +22,7 @@ class ApiService {
     const parsedValues = JSON.parse(storedValues);
     const result = parsedValues.token;
     if (result !== null) {
-      const actualToken = result.split("|")[1];
-      this.userToken = actualToken;
+      this.userToken = result.split("|")[1];
     }
   }
 
