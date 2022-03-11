@@ -3,6 +3,8 @@ import splashImage from '../assets/images/splash_1.png';
 import {Col, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
+
+
 function Splash() {
   return (
     <Row>
@@ -12,6 +14,8 @@ function Splash() {
         </Link>
       </Col>
     </Row>
+
+    
   );
 }
 

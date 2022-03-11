@@ -1,0 +1,61 @@
+[{
+        "uuid": "fbaf8b06-e767-3a9d-bb8e-b21f6967b1e1",
+        "slug": "illo",
+        "name": "illo",
+        "style": {
+            "id": 1,
+            "uuid": "781271df-5f4c-33b1-b7b7-d4640b294e4a",
+            "slug": "non-eligendi-non",
+            "name": "et",
+            "description": "paragraph",
+            "created_at": "2022-01-22T09:21:13.000000Z",
+            "updated_at": "2022-01-22T09:21:13.000000Z"
+        },
+        "image": "<URL to an image file>",
+        "abv": "7.10",
+        "origin": "Iceland",
+        "description": "Multi-lined \n Text \n",
+        "created_at": "2022-01-22T09:21:13.000000Z",
+        "updated_at": "2022-01-22T09:21:13.000000Z"
+    },
+    {
+        "uuid": "fbaf8b06-e767-3a9d-bb8e-b21f6967b1e2",
+        "slug": "Saporro",
+        "name": "Saporro",
+        "style": {
+            "id": 1,
+            "uuid": "781271df-5f4c-33b1-b7b7-d4640b294e4b",
+            "slug": "non-eligendi-non",
+            "name": "et",
+            "description": "paragraph",
+            "created_at": "2022-01-22T09:21:13.000000Z",
+            "updated_at": "2022-01-22T09:21:13.000000Z"
+        },
+        "image": "<URL to an image file>",
+        "abv": "7.10",
+        "origin": "Japan",
+        "description": "Multi-lined \n Text \n",
+        "created_at": "2022-01-22T09:21:13.000000Z",
+        "updated_at": "2022-01-22T09:21:13.000000Z"
+    },
+    {
+        "uuid": "fbaf8b06-e767-3a9d-bb8e-b21f6967b1e3",
+        "slug": "hefeweizen",
+        "name": "hefeweizen",
+        "style": {
+            "id": 1,
+            "uuid": "781271df-5f4c-33b1-b7b7-d4640b294e4c",
+            "slug": "non-eligendi-non",
+            "name": "et",
+            "description": "paragraph",
+            "created_at": "2022-01-22T09:21:13.000000Z",
+            "updated_at": "2022-01-22T09:21:13.000000Z"
+        },
+        "image": "<URL to an image file>",
+        "abv": "7.10",
+        "origin": "Germany",
+        "description": "Multi-lined \n Text \n",
+        "created_at": "2022-01-22T09:21:13.000000Z",
+        "updated_at": "2022-01-22T09:21:13.000000Z"
+    }
+]
